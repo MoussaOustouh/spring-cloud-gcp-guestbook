@@ -1,0 +1,2835 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session -->
+<html lang="en" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A89JPrWYXvEpNQ/xE+PjjlGJiBu/L2GfQcplC/QkDJOS1fBoX5Q4/HLfT1dXpD1td7C2peXE3bSCJiYdwoFcNgQAAACSeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="3NNj0GXVktLOmVKwWUDendk4Vq2qgMVDBDX+Sni48ATJl9JBj+zF+9W2HGB3pvt6qowOihTbQgTeBm9SKbdTwYAAABfeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A89JPrWYXvEpNQ/xE+PjjlGJiBu/L2GfQcplC/QkDJOS1fBoX5Q4/HLfT1dXpD1td7C2peXE3bSCJiYdwoFcNgQAAACSeyJvcmlnaW4iOiJodHRwczovL3JlY2FwdGNoYS5uZXQ6NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style><style type="text/css" data-tag-name="trix-editor">trix-editor {
+    display: block;
+}
+
+trix-editor:empty:not(:focus)::before {
+    content: attr(placeholder);
+    color: graytext;
+    cursor: text;
+    pointer-events: none;
+    white-space: pre-line;
+}
+
+trix-editor a[contenteditable=false] {
+    cursor: text;
+}
+
+trix-editor img {
+    max-width: 100%;
+    height: auto;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea {
+    resize: none;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea.trix-autoresize-clone {
+    position: absolute;
+    left: -9999px;
+    max-height: 0px;
+}
+
+trix-editor [data-trix-attachment] figcaption[data-trix-placeholder]:empty::before {
+    content: attr(data-trix-placeholder);
+    color: graytext;
+}
+
+trix-editor [data-trix-cursor-target] {
+    display: inline-block !important;
+    width: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+trix-editor [data-trix-cursor-target=left] {
+    vertical-align: top !important;
+    margin-left: -1px !important;
+}
+
+trix-editor [data-trix-cursor-target=right] {
+    vertical-align: bottom !important;
+    margin-right: -1px !important;
+}</style><style type="text/css" data-tag-name="trix-toolbar">trix-toolbar {
+  display: block;
+}
+
+trix-toolbar {
+  white-space: nowrap;
+}
+
+trix-toolbar [data-trix-dialog] {
+  display: none;
+}
+
+trix-toolbar [data-trix-dialog][data-trix-active] {
+  display: block;
+}
+
+trix-toolbar [data-trix-dialog] [data-trix-validate]:invalid {
+  background-color: #ffdddd;
+}</style>
+<title>JAVAMS05 Messaging with Pub/Sub | Qwiklabs</title>
+<meta name="action-cable-url" content="/cable">
+<script type="text/javascript" async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/analytics.js.download"></script><script type="text/javascript" async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/js"></script><script type="text/javascript" async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-PxKkxUgJJmIPXGp6HpU/f3+WeI7k5vuSCt9rvWx6kEGKsR3Jn1jlabxXOVMjRuyw"></script><script type="text/javascript" async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/recaptcha__en(1).js.download" crossorigin="anonymous" integrity="sha384-0lJkOVHDy3ItYlCbUoEzThjP3hLhLYfEFPAkVOCxnJpb5K9Fllso+S8TRBILcfPo"></script><script async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/gtm.js.download"></script><script>
+//<![CDATA[
+window.gon={};gon.deployment="googlecoursera-run";
+//]]>
+</script>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-5XSKHDX");
+</script>
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/webcomponents-loader-b1b28b59480cca2ab0c23485f64ba2ec8893bdc9.js.download"></script>
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/vendor-5ee6eafe71fd3831091397e1aa344044a8642273.js.download"></script>
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/application-77e13051a5a1d50e044f607564999571ae65b54f.js.download"></script><style>:root {
+  --game-color: #E52592;
+  --classroom-color: #01877E;
+  --external-course-color: #D56E0C;
+  --certification-color: #C5221F;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  border-bottom: none !important;
+}
+
+label abbr[title] {
+  color: var(--primary-text-on-surface-color);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--hairline-color);
+  display: block;
+  height: 1px;
+  margin: 24px 0;
+  padding: 0;
+}
+
+mark {
+  background-color: #F9AB00;
+  border-radius: 2px;
+  color: inherit;
+  padding: 2px 0px;
+}
+
+p, li {
+  font: var(--md-sys-typescale-body-large);
+}
+
+._small-label_1gdx7_37,
+._label--small_1gdx7_38 {
+  font: var(--md-sys-typescale-body-medium);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+._mdl-typography--small-title_1gdx7_47 {
+  color: #202124;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+._text--blue_1gdx7_53 {
+  color: var(--primary-text-on-surface-color);
+}
+
+._text--center_1gdx7_57 {
+  text-align: center;
+}
+
+._text--capitalize_1gdx7_61 {
+  text-transform: capitalize;
+}
+
+._text--code_1gdx7_65 {
+  font-family: "Roboto Mono", monospace;
+}
+
+._text--copy_1gdx7_69 {
+  font-family: var(--md-ref-typeface-plain);
+}
+
+._text--error_1gdx7_73 {
+  color: var(--warn-color);
+}
+
+._text--free_1gdx7_77 {
+  color: var(--success-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+._text--gray_1gdx7_83 {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+._text--light_1gdx7_87 {
+  color: var(--light-text-on-surface-color) !important;
+}
+
+._text--right_1gdx7_91 {
+  text-align: right;
+}
+
+._text--sign_1gdx7_95 {
+  font-family: "Oswald", sans-serif;
+}
+
+._text--small_1gdx7_99 {
+  font-size: 14px !important;
+}
+
+._text--large_1gdx7_103 {
+  font-size: 20px !important;
+}
+
+._text--success_1gdx7_107 {
+  color: var(--success-color) !important;
+}
+
+._text--yellow_1gdx7_111 {
+  color: #F9AB00;
+}
+
+._text--red_1gdx7_115 {
+  color: #D93025;
+}
+
+._text--green_1gdx7_119 {
+  color: #34A853;
+}
+
+u {
+  text-decoration: none;
+}
+
+._material-icons_1gdx7_127 {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+._ellipsis_1gdx7_149 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+._text--rtl_1gdx7_155 {
+  direction: rtl;
+}
+
+._body-wrapper_1gdx7_159 {
+  max-width: 800px;
+}
+
+._text--button_1gdx7_163 {
+  font: var(--md-sys-typescale-label-large);
+}</style>
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/hallofmirrors-ba58bb806e32529d6afee54ea84b8d8a99b3c49b.js.download"></script><script async="" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/lazy.min.js.download"></script>
+<custom-style>
+  <style is="custom-style">[hidden] {
+  display: none !important;
+}
+
+</style>
+</custom-style>
+<custom-style>
+  <style is="custom-style">html {
+  --layout_-_display:  flex;;
+
+      --layout-inline_-_display:  inline-flex;;
+
+      --layout-horizontal_-_display:  var(--layout_-_display); --layout-horizontal_-_-ms-flex-direction:  row; --layout-horizontal_-_-webkit-flex-direction:  row; --layout-horizontal_-_flex-direction:  row;;
+
+      --layout-horizontal-reverse_-_display:  var(--layout_-_display); --layout-horizontal-reverse_-_-ms-flex-direction:  row-reverse; --layout-horizontal-reverse_-_-webkit-flex-direction:  row-reverse; --layout-horizontal-reverse_-_flex-direction:  row-reverse;;
+
+      --layout-vertical_-_display:  var(--layout_-_display); --layout-vertical_-_-ms-flex-direction:  column; --layout-vertical_-_-webkit-flex-direction:  column; --layout-vertical_-_flex-direction:  column;;
+
+      --layout-vertical-reverse_-_display:  var(--layout_-_display); --layout-vertical-reverse_-_-ms-flex-direction:  column-reverse; --layout-vertical-reverse_-_-webkit-flex-direction:  column-reverse; --layout-vertical-reverse_-_flex-direction:  column-reverse;;
+
+      --layout-wrap_-_-ms-flex-wrap:  wrap; --layout-wrap_-_-webkit-flex-wrap:  wrap; --layout-wrap_-_flex-wrap:  wrap;;
+
+      --layout-wrap-reverse_-_-ms-flex-wrap:  wrap-reverse; --layout-wrap-reverse_-_-webkit-flex-wrap:  wrap-reverse; --layout-wrap-reverse_-_flex-wrap:  wrap-reverse;;
+
+      --layout-flex-auto_-_-ms-flex:  1 1 auto; --layout-flex-auto_-_-webkit-flex:  1 1 auto; --layout-flex-auto_-_flex:  1 1 auto;;
+
+      --layout-flex-none_-_-ms-flex:  none; --layout-flex-none_-_-webkit-flex:  none; --layout-flex-none_-_flex:  none;;
+
+      --layout-flex_-_-ms-flex:  1 1 0.000000001px; --layout-flex_-_-webkit-flex:  1; --layout-flex_-_flex:  1; --layout-flex_-_-webkit-flex-basis:  0.000000001px; --layout-flex_-_flex-basis:  0.000000001px;;
+
+      --layout-flex-2_-_-ms-flex:  2; --layout-flex-2_-_-webkit-flex:  2; --layout-flex-2_-_flex:  2;;
+
+      --layout-flex-3_-_-ms-flex:  3; --layout-flex-3_-_-webkit-flex:  3; --layout-flex-3_-_flex:  3;;
+
+      --layout-flex-4_-_-ms-flex:  4; --layout-flex-4_-_-webkit-flex:  4; --layout-flex-4_-_flex:  4;;
+
+      --layout-flex-5_-_-ms-flex:  5; --layout-flex-5_-_-webkit-flex:  5; --layout-flex-5_-_flex:  5;;
+
+      --layout-flex-6_-_-ms-flex:  6; --layout-flex-6_-_-webkit-flex:  6; --layout-flex-6_-_flex:  6;;
+
+      --layout-flex-7_-_-ms-flex:  7; --layout-flex-7_-_-webkit-flex:  7; --layout-flex-7_-_flex:  7;;
+
+      --layout-flex-8_-_-ms-flex:  8; --layout-flex-8_-_-webkit-flex:  8; --layout-flex-8_-_flex:  8;;
+
+      --layout-flex-9_-_-ms-flex:  9; --layout-flex-9_-_-webkit-flex:  9; --layout-flex-9_-_flex:  9;;
+
+      --layout-flex-10_-_-ms-flex:  10; --layout-flex-10_-_-webkit-flex:  10; --layout-flex-10_-_flex:  10;;
+
+      --layout-flex-11_-_-ms-flex:  11; --layout-flex-11_-_-webkit-flex:  11; --layout-flex-11_-_flex:  11;;
+
+      --layout-flex-12_-_-ms-flex:  12; --layout-flex-12_-_-webkit-flex:  12; --layout-flex-12_-_flex:  12;;
+
+      
+
+      --layout-start_-_-ms-flex-align:  start; --layout-start_-_-webkit-align-items:  flex-start; --layout-start_-_align-items:  flex-start;;
+
+      --layout-center_-_-ms-flex-align:  center; --layout-center_-_-webkit-align-items:  center; --layout-center_-_align-items:  center;;
+
+      --layout-end_-_-ms-flex-align:  end; --layout-end_-_-webkit-align-items:  flex-end; --layout-end_-_align-items:  flex-end;;
+
+      --layout-baseline_-_-ms-flex-align:  baseline; --layout-baseline_-_-webkit-align-items:  baseline; --layout-baseline_-_align-items:  baseline;;
+
+      
+
+      --layout-start-justified_-_-ms-flex-pack:  start; --layout-start-justified_-_-webkit-justify-content:  flex-start; --layout-start-justified_-_justify-content:  flex-start;;
+
+      --layout-center-justified_-_-ms-flex-pack:  center; --layout-center-justified_-_-webkit-justify-content:  center; --layout-center-justified_-_justify-content:  center;;
+
+      --layout-end-justified_-_-ms-flex-pack:  end; --layout-end-justified_-_-webkit-justify-content:  flex-end; --layout-end-justified_-_justify-content:  flex-end;;
+
+      --layout-around-justified_-_-ms-flex-pack:  distribute; --layout-around-justified_-_-webkit-justify-content:  space-around; --layout-around-justified_-_justify-content:  space-around;;
+
+      --layout-justified_-_-ms-flex-pack:  justify; --layout-justified_-_-webkit-justify-content:  space-between; --layout-justified_-_justify-content:  space-between;;
+
+      --layout-center-center_-_-ms-flex-align:  var(--layout-center_-_-ms-flex-align); --layout-center-center_-_-webkit-align-items:  var(--layout-center_-_-webkit-align-items); --layout-center-center_-_align-items:  var(--layout-center_-_align-items); --layout-center-center_-_-ms-flex-pack:  var(--layout-center-justified_-_-ms-flex-pack); --layout-center-center_-_-webkit-justify-content:  var(--layout-center-justified_-_-webkit-justify-content); --layout-center-center_-_justify-content:  var(--layout-center-justified_-_justify-content);;
+
+      
+
+      --layout-self-start_-_-ms-align-self:  flex-start; --layout-self-start_-_-webkit-align-self:  flex-start; --layout-self-start_-_align-self:  flex-start;;
+
+      --layout-self-center_-_-ms-align-self:  center; --layout-self-center_-_-webkit-align-self:  center; --layout-self-center_-_align-self:  center;;
+
+      --layout-self-end_-_-ms-align-self:  flex-end; --layout-self-end_-_-webkit-align-self:  flex-end; --layout-self-end_-_align-self:  flex-end;;
+
+      --layout-self-stretch_-_-ms-align-self:  stretch; --layout-self-stretch_-_-webkit-align-self:  stretch; --layout-self-stretch_-_align-self:  stretch;;
+
+      --layout-self-baseline_-_-ms-align-self:  baseline; --layout-self-baseline_-_-webkit-align-self:  baseline; --layout-self-baseline_-_align-self:  baseline;;
+
+      
+
+      --layout-start-aligned_-_-ms-flex-line-pack:  start; --layout-start-aligned_-_-ms-align-content:  flex-start; --layout-start-aligned_-_-webkit-align-content:  flex-start; --layout-start-aligned_-_align-content:  flex-start;;
+
+      --layout-end-aligned_-_-ms-flex-line-pack:  end; --layout-end-aligned_-_-ms-align-content:  flex-end; --layout-end-aligned_-_-webkit-align-content:  flex-end; --layout-end-aligned_-_align-content:  flex-end;;
+
+      --layout-center-aligned_-_-ms-flex-line-pack:  center; --layout-center-aligned_-_-ms-align-content:  center; --layout-center-aligned_-_-webkit-align-content:  center; --layout-center-aligned_-_align-content:  center;;
+
+      --layout-between-aligned_-_-ms-flex-line-pack:  justify; --layout-between-aligned_-_-ms-align-content:  space-between; --layout-between-aligned_-_-webkit-align-content:  space-between; --layout-between-aligned_-_align-content:  space-between;;
+
+      --layout-around-aligned_-_-ms-flex-line-pack:  distribute; --layout-around-aligned_-_-ms-align-content:  space-around; --layout-around-aligned_-_-webkit-align-content:  space-around; --layout-around-aligned_-_align-content:  space-around;;
+
+      
+
+      --layout-block_-_display:  block;;
+
+      --layout-invisible_-_visibility:  hidden !important;;
+
+      --layout-relative_-_position:  relative;;
+
+      --layout-fit_-_position:  absolute; --layout-fit_-_top:  0; --layout-fit_-_right:  0; --layout-fit_-_bottom:  0; --layout-fit_-_left:  0;;
+
+      --layout-scroll_-_-webkit-overflow-scrolling:  touch; --layout-scroll_-_overflow:  auto;;
+
+      --layout-fullbleed_-_margin:  0; --layout-fullbleed_-_height:  100vh;;
+
+      
+
+      --layout-fixed-top_-_position:  fixed; --layout-fixed-top_-_top:  0; --layout-fixed-top_-_left:  0; --layout-fixed-top_-_right:  0;;
+
+      --layout-fixed-right_-_position:  fixed; --layout-fixed-right_-_top:  0; --layout-fixed-right_-_right:  0; --layout-fixed-right_-_bottom:  0;;
+
+      --layout-fixed-bottom_-_position:  fixed; --layout-fixed-bottom_-_right:  0; --layout-fixed-bottom_-_bottom:  0; --layout-fixed-bottom_-_left:  0;;
+
+      --layout-fixed-left_-_position:  fixed; --layout-fixed-left_-_top:  0; --layout-fixed-left_-_bottom:  0; --layout-fixed-left_-_left:  0;;
+}
+
+</style>
+</custom-style><style>[hidden] { display: none !important; }</style><custom-style>
+  <style is="custom-style">html {
+  --google-red-100: #f4c7c3;
+      --google-red-300: #e67c73;
+      --google-red-500: #db4437;
+      --google-red-700: #c53929;
+
+      --google-blue-100: #c6dafc;
+      --google-blue-300: #7baaf7;
+      --google-blue-500: #4285f4;
+      --google-blue-700: #3367d6;
+
+      --google-green-100: #b7e1cd;
+      --google-green-300: #57bb8a;
+      --google-green-500: #0f9d58;
+      --google-green-700: #0b8043;
+
+      --google-yellow-100: #fce8b2;
+      --google-yellow-300: #f7cb4d;
+      --google-yellow-500: #f4b400;
+      --google-yellow-700: #f09300;
+
+      --google-grey-100: #f5f5f5;
+      --google-grey-300: #e0e0e0;
+      --google-grey-500: #9e9e9e;
+      --google-grey-700: #616161;
+
+      
+
+      --paper-red-50: #ffebee;
+      --paper-red-100: #ffcdd2;
+      --paper-red-200: #ef9a9a;
+      --paper-red-300: #e57373;
+      --paper-red-400: #ef5350;
+      --paper-red-500: #f44336;
+      --paper-red-600: #e53935;
+      --paper-red-700: #d32f2f;
+      --paper-red-800: #c62828;
+      --paper-red-900: #b71c1c;
+      --paper-red-a100: #ff8a80;
+      --paper-red-a200: #ff5252;
+      --paper-red-a400: #ff1744;
+      --paper-red-a700: #d50000;
+
+      --paper-pink-50: #fce4ec;
+      --paper-pink-100: #f8bbd0;
+      --paper-pink-200: #f48fb1;
+      --paper-pink-300: #f06292;
+      --paper-pink-400: #ec407a;
+      --paper-pink-500: #e91e63;
+      --paper-pink-600: #d81b60;
+      --paper-pink-700: #c2185b;
+      --paper-pink-800: #ad1457;
+      --paper-pink-900: #880e4f;
+      --paper-pink-a100: #ff80ab;
+      --paper-pink-a200: #ff4081;
+      --paper-pink-a400: #f50057;
+      --paper-pink-a700: #c51162;
+
+      --paper-purple-50: #f3e5f5;
+      --paper-purple-100: #e1bee7;
+      --paper-purple-200: #ce93d8;
+      --paper-purple-300: #ba68c8;
+      --paper-purple-400: #ab47bc;
+      --paper-purple-500: #9c27b0;
+      --paper-purple-600: #8e24aa;
+      --paper-purple-700: #7b1fa2;
+      --paper-purple-800: #6a1b9a;
+      --paper-purple-900: #4a148c;
+      --paper-purple-a100: #ea80fc;
+      --paper-purple-a200: #e040fb;
+      --paper-purple-a400: #d500f9;
+      --paper-purple-a700: #aa00ff;
+
+      --paper-deep-purple-50: #ede7f6;
+      --paper-deep-purple-100: #d1c4e9;
+      --paper-deep-purple-200: #b39ddb;
+      --paper-deep-purple-300: #9575cd;
+      --paper-deep-purple-400: #7e57c2;
+      --paper-deep-purple-500: #673ab7;
+      --paper-deep-purple-600: #5e35b1;
+      --paper-deep-purple-700: #512da8;
+      --paper-deep-purple-800: #4527a0;
+      --paper-deep-purple-900: #311b92;
+      --paper-deep-purple-a100: #b388ff;
+      --paper-deep-purple-a200: #7c4dff;
+      --paper-deep-purple-a400: #651fff;
+      --paper-deep-purple-a700: #6200ea;
+
+      --paper-indigo-50: #e8eaf6;
+      --paper-indigo-100: #c5cae9;
+      --paper-indigo-200: #9fa8da;
+      --paper-indigo-300: #7986cb;
+      --paper-indigo-400: #5c6bc0;
+      --paper-indigo-500: #3f51b5;
+      --paper-indigo-600: #3949ab;
+      --paper-indigo-700: #303f9f;
+      --paper-indigo-800: #283593;
+      --paper-indigo-900: #1a237e;
+      --paper-indigo-a100: #8c9eff;
+      --paper-indigo-a200: #536dfe;
+      --paper-indigo-a400: #3d5afe;
+      --paper-indigo-a700: #304ffe;
+
+      --paper-blue-50: #e3f2fd;
+      --paper-blue-100: #bbdefb;
+      --paper-blue-200: #90caf9;
+      --paper-blue-300: #64b5f6;
+      --paper-blue-400: #42a5f5;
+      --paper-blue-500: #2196f3;
+      --paper-blue-600: #1e88e5;
+      --paper-blue-700: #1976d2;
+      --paper-blue-800: #1565c0;
+      --paper-blue-900: #0d47a1;
+      --paper-blue-a100: #82b1ff;
+      --paper-blue-a200: #448aff;
+      --paper-blue-a400: #2979ff;
+      --paper-blue-a700: #2962ff;
+
+      --paper-light-blue-50: #e1f5fe;
+      --paper-light-blue-100: #b3e5fc;
+      --paper-light-blue-200: #81d4fa;
+      --paper-light-blue-300: #4fc3f7;
+      --paper-light-blue-400: #29b6f6;
+      --paper-light-blue-500: #03a9f4;
+      --paper-light-blue-600: #039be5;
+      --paper-light-blue-700: #0288d1;
+      --paper-light-blue-800: #0277bd;
+      --paper-light-blue-900: #01579b;
+      --paper-light-blue-a100: #80d8ff;
+      --paper-light-blue-a200: #40c4ff;
+      --paper-light-blue-a400: #00b0ff;
+      --paper-light-blue-a700: #0091ea;
+
+      --paper-cyan-50: #e0f7fa;
+      --paper-cyan-100: #b2ebf2;
+      --paper-cyan-200: #80deea;
+      --paper-cyan-300: #4dd0e1;
+      --paper-cyan-400: #26c6da;
+      --paper-cyan-500: #00bcd4;
+      --paper-cyan-600: #00acc1;
+      --paper-cyan-700: #0097a7;
+      --paper-cyan-800: #00838f;
+      --paper-cyan-900: #006064;
+      --paper-cyan-a100: #84ffff;
+      --paper-cyan-a200: #18ffff;
+      --paper-cyan-a400: #00e5ff;
+      --paper-cyan-a700: #00b8d4;
+
+      --paper-teal-50: #e0f2f1;
+      --paper-teal-100: #b2dfdb;
+      --paper-teal-200: #80cbc4;
+      --paper-teal-300: #4db6ac;
+      --paper-teal-400: #26a69a;
+      --paper-teal-500: #009688;
+      --paper-teal-600: #00897b;
+      --paper-teal-700: #00796b;
+      --paper-teal-800: #00695c;
+      --paper-teal-900: #004d40;
+      --paper-teal-a100: #a7ffeb;
+      --paper-teal-a200: #64ffda;
+      --paper-teal-a400: #1de9b6;
+      --paper-teal-a700: #00bfa5;
+
+      --paper-green-50: #e8f5e9;
+      --paper-green-100: #c8e6c9;
+      --paper-green-200: #a5d6a7;
+      --paper-green-300: #81c784;
+      --paper-green-400: #66bb6a;
+      --paper-green-500: #4caf50;
+      --paper-green-600: #43a047;
+      --paper-green-700: #388e3c;
+      --paper-green-800: #2e7d32;
+      --paper-green-900: #1b5e20;
+      --paper-green-a100: #b9f6ca;
+      --paper-green-a200: #69f0ae;
+      --paper-green-a400: #00e676;
+      --paper-green-a700: #00c853;
+
+      --paper-light-green-50: #f1f8e9;
+      --paper-light-green-100: #dcedc8;
+      --paper-light-green-200: #c5e1a5;
+      --paper-light-green-300: #aed581;
+      --paper-light-green-400: #9ccc65;
+      --paper-light-green-500: #8bc34a;
+      --paper-light-green-600: #7cb342;
+      --paper-light-green-700: #689f38;
+      --paper-light-green-800: #558b2f;
+      --paper-light-green-900: #33691e;
+      --paper-light-green-a100: #ccff90;
+      --paper-light-green-a200: #b2ff59;
+      --paper-light-green-a400: #76ff03;
+      --paper-light-green-a700: #64dd17;
+
+      --paper-lime-50: #f9fbe7;
+      --paper-lime-100: #f0f4c3;
+      --paper-lime-200: #e6ee9c;
+      --paper-lime-300: #dce775;
+      --paper-lime-400: #d4e157;
+      --paper-lime-500: #cddc39;
+      --paper-lime-600: #c0ca33;
+      --paper-lime-700: #afb42b;
+      --paper-lime-800: #9e9d24;
+      --paper-lime-900: #827717;
+      --paper-lime-a100: #f4ff81;
+      --paper-lime-a200: #eeff41;
+      --paper-lime-a400: #c6ff00;
+      --paper-lime-a700: #aeea00;
+
+      --paper-yellow-50: #fffde7;
+      --paper-yellow-100: #fff9c4;
+      --paper-yellow-200: #fff59d;
+      --paper-yellow-300: #fff176;
+      --paper-yellow-400: #ffee58;
+      --paper-yellow-500: #ffeb3b;
+      --paper-yellow-600: #fdd835;
+      --paper-yellow-700: #fbc02d;
+      --paper-yellow-800: #f9a825;
+      --paper-yellow-900: #f57f17;
+      --paper-yellow-a100: #ffff8d;
+      --paper-yellow-a200: #ffff00;
+      --paper-yellow-a400: #ffea00;
+      --paper-yellow-a700: #ffd600;
+
+      --paper-amber-50: #fff8e1;
+      --paper-amber-100: #ffecb3;
+      --paper-amber-200: #ffe082;
+      --paper-amber-300: #ffd54f;
+      --paper-amber-400: #ffca28;
+      --paper-amber-500: #ffc107;
+      --paper-amber-600: #ffb300;
+      --paper-amber-700: #ffa000;
+      --paper-amber-800: #ff8f00;
+      --paper-amber-900: #ff6f00;
+      --paper-amber-a100: #ffe57f;
+      --paper-amber-a200: #ffd740;
+      --paper-amber-a400: #ffc400;
+      --paper-amber-a700: #ffab00;
+
+      --paper-orange-50: #fff3e0;
+      --paper-orange-100: #ffe0b2;
+      --paper-orange-200: #ffcc80;
+      --paper-orange-300: #ffb74d;
+      --paper-orange-400: #ffa726;
+      --paper-orange-500: #ff9800;
+      --paper-orange-600: #fb8c00;
+      --paper-orange-700: #f57c00;
+      --paper-orange-800: #ef6c00;
+      --paper-orange-900: #e65100;
+      --paper-orange-a100: #ffd180;
+      --paper-orange-a200: #ffab40;
+      --paper-orange-a400: #ff9100;
+      --paper-orange-a700: #ff6500;
+
+      --paper-deep-orange-50: #fbe9e7;
+      --paper-deep-orange-100: #ffccbc;
+      --paper-deep-orange-200: #ffab91;
+      --paper-deep-orange-300: #ff8a65;
+      --paper-deep-orange-400: #ff7043;
+      --paper-deep-orange-500: #ff5722;
+      --paper-deep-orange-600: #f4511e;
+      --paper-deep-orange-700: #e64a19;
+      --paper-deep-orange-800: #d84315;
+      --paper-deep-orange-900: #bf360c;
+      --paper-deep-orange-a100: #ff9e80;
+      --paper-deep-orange-a200: #ff6e40;
+      --paper-deep-orange-a400: #ff3d00;
+      --paper-deep-orange-a700: #dd2c00;
+
+      --paper-brown-50: #efebe9;
+      --paper-brown-100: #d7ccc8;
+      --paper-brown-200: #bcaaa4;
+      --paper-brown-300: #a1887f;
+      --paper-brown-400: #8d6e63;
+      --paper-brown-500: #795548;
+      --paper-brown-600: #6d4c41;
+      --paper-brown-700: #5d4037;
+      --paper-brown-800: #4e342e;
+      --paper-brown-900: #3e2723;
+
+      --paper-grey-50: #fafafa;
+      --paper-grey-100: #f5f5f5;
+      --paper-grey-200: #eeeeee;
+      --paper-grey-300: #e0e0e0;
+      --paper-grey-400: #bdbdbd;
+      --paper-grey-500: #9e9e9e;
+      --paper-grey-600: #757575;
+      --paper-grey-700: #616161;
+      --paper-grey-800: #424242;
+      --paper-grey-900: #212121;
+
+      --paper-blue-grey-50: #eceff1;
+      --paper-blue-grey-100: #cfd8dc;
+      --paper-blue-grey-200: #b0bec5;
+      --paper-blue-grey-300: #90a4ae;
+      --paper-blue-grey-400: #78909c;
+      --paper-blue-grey-500: #607d8b;
+      --paper-blue-grey-600: #546e7a;
+      --paper-blue-grey-700: #455a64;
+      --paper-blue-grey-800: #37474f;
+      --paper-blue-grey-900: #263238;
+
+      
+      --dark-divider-opacity: 0.12;
+      --dark-disabled-opacity: 0.38; 
+      --dark-secondary-opacity: 0.54;
+      --dark-primary-opacity: 0.87;
+
+      
+      --light-divider-opacity: 0.12;
+      --light-disabled-opacity: 0.3; 
+      --light-secondary-opacity: 0.7;
+      --light-primary-opacity: 1.0;
+}
+
+</style>
+</custom-style><custom-style>
+  <style is="custom-style">html {
+  --primary-text-color: var(--light-theme-text-color);
+      --primary-background-color: var(--light-theme-background-color);
+      --secondary-text-color: var(--light-theme-secondary-color);
+      --disabled-text-color: var(--light-theme-disabled-color);
+      --divider-color: var(--light-theme-divider-color);
+      --error-color: var(--paper-deep-orange-a700);
+
+      
+      --primary-color: var(--paper-indigo-500);
+      --light-primary-color: var(--paper-indigo-100);
+      --dark-primary-color: var(--paper-indigo-700);
+
+      --accent-color: var(--paper-pink-a200);
+      --light-accent-color: var(--paper-pink-a100);
+      --dark-accent-color: var(--paper-pink-a400);
+
+
+      
+      --light-theme-background-color: #ffffff;
+      --light-theme-base-color: #000000;
+      --light-theme-text-color: var(--paper-grey-900);
+      --light-theme-secondary-color: #737373;  
+      --light-theme-disabled-color: #9b9b9b;  
+      --light-theme-divider-color: #dbdbdb;
+
+      
+      --dark-theme-background-color: var(--paper-grey-900);
+      --dark-theme-base-color: #ffffff;
+      --dark-theme-text-color: #ffffff;
+      --dark-theme-secondary-color: #bcbcbc;  
+      --dark-theme-disabled-color: #646464;  
+      --dark-theme-divider-color: #3c3c3c;
+
+      
+      --text-primary-color: var(--dark-theme-text-color);
+      --default-primary-color: var(--primary-color);
+}
+
+</style>
+</custom-style><script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/loader.js.download"></script>
+<script id="ze-snippet" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/snippet.js.download"></script>
+
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="IR2KP9WsEARAeQEVlXP7ggc9RWXLq3tCqqruK/QtdpBI0zMLDu7mMqWMEXClnmwji7DRQLZIY95pUBonykQfZQ==">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="1rRsY0INj8RvwB5EF5pwdxt2A2P9aDgAlsICaJ0d5w0" name="google-site-verification">
+<meta content="#3681E4" property="msapplication-TileColor">
+<meta content="/favicon-144.png" property="msapplication-TileImage">
+<meta content="{&quot;userId&quot;:16476886,&quot;experimentIds&quot;:[&quot;credly&quot;,&quot;program_announcements&quot;,&quot;show_annual_purchase_now&quot;,&quot;teams&quot;,&quot;chat_off_for_signed_out_users&quot;,&quot;credly_integration_announcement_modal&quot;,&quot;guest_user&quot;,&quot;landing_page&quot;,&quot;course_upgrade&quot;,&quot;alexandria_subscriptions_pagination&quot;,&quot;dedup_badge&quot;,&quot;search_updates&quot;,&quot;content_provider_admin&quot;,&quot;canonical_domain_redirect&quot;,&quot;onramp&quot;,&quot;ai_skills&quot;,&quot;oauth_risc_shutoff&quot;,&quot;one_tap&quot;,&quot;used_in&quot;,&quot;alexandria_show_bundle_errors&quot;]}" name="help-api-product-data">
+<meta content="{&quot;groupIds&quot;:[&quot;non_suadmins&quot;,&quot;students&quot;,&quot;non_organization&quot;,&quot;non_program&quot;]}" name="help-api-custom-data">
+<meta content="Java Microservices with Spring Boot
+Lab 05 Messaging with Pub/Sub" name="description">
+<meta content="Qwiklabs" name="author">
+<meta content="JAVAMS05 Messaging with Pub/Sub | Qwiklabs" property="og:title">
+<meta content="website" property="og:type">
+<meta content="/favicon-144.png" property="og:image">
+<meta content="Qwiklabs" property="og:site_name">
+<meta content="Java Microservices with Spring Boot
+Lab 05 Messaging with Pub/Sub" property="og:description">
+<meta content="/qwiklabs_logo_900x887.png" property="og:logo" size="900x887">
+<meta content="/qwiklabs_logo_994x187.png" property="og:logo" size="994x187">
+
+
+<meta property="og:url" content="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session"><link href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session" rel="canonical">
+<link color="#3681E4" href="https://googlecoursera.qwiklabs.com/favicon-svg.svg" rel="mask-icon">
+<link href="https://googlecoursera.qwiklabs.com/favicon-180.png" rel="apple-touch-icon-precomposed">
+<link href="https://googlecoursera.qwiklabs.com/favicon-32.png" rel="shortcut icon" type="image/x-icon">
+
+
+<link rel="stylesheet" href="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/css" media="screen">
+
+<link rel="stylesheet" href="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/application-e50c6ea6ee2a68a0e997bbc71a13897aa006e264.css" media="all">
+<link rel="stylesheet" href="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/cookienotificationbar.min.css" media="screen">
+
+
+<style>
+  :root {
+    --primary-text-on-surface-color: #1a73e8;
+    --primary-text-on-surface-color-dark: #1568d6;
+    --primary-text-on-surface-color-darker: #135ec1;
+    --primary-text-on-surface-color-darkest: #1154ac;
+    --primary-surface-color: #1a73e8;
+    --primary-surface-color-rgb: 26,115,232;
+    --primary-surface-color-light: #d1e3fa;
+    --primary-surface-color-lightest: #e8f1fd;
+    --text-on-primary-color: #ffffff;
+    --accent-text-on-surface-color: #f29900;
+    --accent-surface-color: #f9ab00;
+    --accent-surface-color-rgb: 249,171,0;
+    --accent-surface-color-light: #ffefcc;
+    --text-on-accent-color: #202124;
+  }
+</style>
+
+
+
+</head>
+<body class="lab-show l-full no-nav application-new focuses focuses-show lab-show l-full no-nav "><div class="glue-cookie-notification-bar" id="glue-cookie-notification-bar-1" aria-hidden="true" aria-labelledby="glue-cookie-notification-bar-1-label" inert="true" role="region" tabindex="-1"><p class="glue-cookie-notification-bar__text"><span id="glue-cookie-notification-bar-1-label">googlecoursera.qwiklabs.com uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic. </span><a href="https://policies.google.com/technologies/cookies?hl=en" class="glue-cookie-notification-bar__more" rel="noopener" aria-describedby="glue-cookie-notification-bar-1-label" target="_blank" aria-label="Learn more about how Google uses cookies. Opens in a new tab.">Learn more</a>.</p><button class="glue-cookie-notification-bar__accept">Understood</button></div>
+<div class="header-container">
+<div class="header">
+<ql-toolbar jumpenabled=""><template shadowrootmode="open"><!---->
+      <!--?lit$135593057$-->
+      <div class=" jump-container ">
+        <ql-button hairline="" class="jump-to-content" href="#jump-content"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#jump-content" class=" mdc-button mdc-button--outlined gm-button-hairline gm-hairline-text-label-button ql-button default ">
+        <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$--><slot></slot> </span> 
+    
+      </a>
+     <!--?lit$135593057$--> </template>
+          <!--?lit$135593057$-->Jump to content
+        </ql-button>
+      </div>
+    
+      <span class="navigation">
+        <slot name="navigation"></slot>
+      </span>
+      <span class="title">
+        <slot name="title"></slot>
+      </span>
+      <span class="tabs">
+        <slot name="tabs"></slot>
+      </span>
+      <span class="actions">
+        <slot name="action"></slot>
+      </span>
+    </template>
+<div class="header__title" slot="title">
+<ql-icon-button label="Back" href="https://www.coursera.org/" id="8451e902d665f6c0" tip="Back"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://www.coursera.org/" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Back">
+        <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+      </a>
+     <!--?lit$135593057$--> </template>arrow_back</ql-icon-button>
+<h1 class="ql-title-medium">JAVAMS05 Messaging with Pub/Sub</h1>
+</div>
+<div class="header__actions" slot="action">
+<ql-icon-button id="control-panel-target" style="display: none;"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-busy="false" aria-label="dashboard" aria-haspopup="true" aria-controls="control-panel-menu">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+dashboard
+</ql-icon-button>
+<ql-menu for="control-panel-target" id="control-panel-menu" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="control-panel-target"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template></ql-menu>
+<ql-icon-button class="mobile-hide" icon="help_outline" id="help-menu-button" label="Open help menu" tip="Help"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Open help menu" aria-busy="false" aria-haspopup="true" aria-controls="help-menu">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$-->help_outline
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-icon-button>
+<ql-menu for="help-menu-button" id="help-menu" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="help-menu-button"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<ql-menu-item data-analytics-action="opened_help" data-analytics-label="lab" label="Help Center" onclick="hallofmirrors.helpService.startHelp({&quot;productData&quot;:{&quot;userId&quot;:16476886},&quot;context&quot;:&quot;lab&quot;})"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" menu-item " role="menuitem" aria-label="Help Center" aria-busy="false">
+          <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Help Center<!--?-->
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item href="mailto:support@qwiklabs.com" label="Email support"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="mailto:support@qwiklabs.com" role="menuitem" class=" menu-item " aria-label="Email support">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Email support<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item label="Chat support" onclick="ql.chat.open()"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" menu-item " role="menuitem" aria-label="Chat support" aria-busy="false">
+          <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Chat support<!--?-->
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item href="https://reportingwidget.google.com/widget/54?cid=1&amp;url=https://googlecoursera.qwiklabs.com/focuses/35799521?" label="Report Illegal Content"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://reportingwidget.google.com/widget/54?cid=1&amp;url=https://googlecoursera.qwiklabs.com/focuses/35799521?" role="menuitem" class=" menu-item " aria-label="Report Illegal Content">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Report Illegal Content<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+</ql-menu>
+
+<ql-icon-button class="mobile-hide" icon="language" id="language" label="Select your language preference" tip="Language"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Select your language preference" aria-busy="false" aria-haspopup="true" aria-controls="">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$-->language
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-icon-button>
+<ql-menu for="language" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="language"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ar" href="/focuses/35799521?locale=ar&amp;parent=lti_session" label="العربية‬‎" lang="ar"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=ar&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="العربية‬‎">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->العربية‬‎<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="de" href="/focuses/35799521?locale=de&amp;parent=lti_session" label="Deutsch" lang="de"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=de&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="Deutsch">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Deutsch<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="en" href="/focuses/35799521?locale=en&amp;parent=lti_session" label="English" lang="en"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=en&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="English">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->English<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="es" href="/focuses/35799521?locale=es&amp;parent=lti_session" label="español (Latinoamérica)" lang="es"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=es&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="español (Latinoamérica)">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->español (Latinoamérica)<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="fr" href="/focuses/35799521?locale=fr&amp;parent=lti_session" label="français" lang="fr"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=fr&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="français">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->français<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="fr_CA" href="/focuses/35799521?locale=fr_CA&amp;parent=lti_session" label="français (Canada)" lang="fr-CA"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=fr_CA&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="français (Canada)">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->français (Canada)<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="he" href="/focuses/35799521?locale=he&amp;parent=lti_session" label="עברית" lang="he"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=he&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="עברית">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->עברית<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="id" href="/focuses/35799521?locale=id&amp;parent=lti_session" label="bahasa Indonesia" lang="id"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=id&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="bahasa Indonesia">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->bahasa Indonesia<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="it" href="/focuses/35799521?locale=it&amp;parent=lti_session" label="italiano" lang="it"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=it&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="italiano">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->italiano<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ja" href="/focuses/35799521?locale=ja&amp;parent=lti_session" label="日本語" lang="ja"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=ja&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="日本語">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->日本語<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ko" href="/focuses/35799521?locale=ko&amp;parent=lti_session" label="한국어" lang="ko"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=ko&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="한국어">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->한국어<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pl" href="/focuses/35799521?locale=pl&amp;parent=lti_session" label="polski" lang="pl"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=pl&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="polski">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->polski<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pt_BR" href="/focuses/35799521?locale=pt_BR&amp;parent=lti_session" label="português (Brasil)" lang="pt-BR"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=pt_BR&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="português (Brasil)">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->português (Brasil)<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="pt_PT" href="/focuses/35799521?locale=pt_PT&amp;parent=lti_session" label="português (Portugal)" lang="pt-PT"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=pt_PT&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="português (Portugal)">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->português (Portugal)<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="ru" href="/focuses/35799521?locale=ru&amp;parent=lti_session" label="русский" lang="ru"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=ru&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="русский">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->русский<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="tr" href="/focuses/35799521?locale=tr&amp;parent=lti_session" label="Türkçe" lang="tr"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=tr&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="Türkçe">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->Türkçe<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="uk" href="/focuses/35799521?locale=uk&amp;parent=lti_session" label="українська" lang="uk"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=uk&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="українська">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->українська<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="zh" href="/focuses/35799521?locale=zh&amp;parent=lti_session" label="简体中文" lang="zh"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=zh&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="简体中文">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->简体中文<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+<ql-menu-item data-analytics-action="changed_locale" data-analytics-label="zh_TW" href="/focuses/35799521?locale=zh_TW&amp;parent=lti_session" label="繁體中文" lang="zh-TW"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/focuses/35799521?locale=zh_TW&amp;parent=lti_session" role="menuitem" class=" menu-item " aria-label="繁體中文">
+        <!--?lit$135593057$--><!--?lit$135593057$--> <!--?lit$135593057$-->繁體中文<!--?-->
+      </a>
+     <!--?lit$135593057$--> </template></ql-menu-item>
+</ql-menu>
+
+<ql-user-points leaderboardhref="/profile/leaderboard" leagueimagesrc="https://cdn.qwiklabs.com/assets/leagues/bronze_icon-e39312c8973c998da7bde8ed32e96ee1c8813eee.png" points="200" promote="" rank="9"><template shadowrootmode="open"><!---->
+      <a class="wrapper-link" href="https://googlecoursera.qwiklabs.com/profile/leaderboard">
+        <div class="container   ">
+          <!--?lit$135593057$-->
+      <div class="points">
+        <ql-icon size="20" class="star"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: 20px;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template>star</ql-icon>
+        <!--?lit$135593057$-->200 <!--?lit$135593057$-->pts
+      </div>
+     <!--?lit$135593057$--> <div class="rank  promote "> <!--?lit$135593057$--><img alt="" height="17" src="https://cdn.qwiklabs.com/assets/leagues/bronze_icon-e39312c8973c998da7bde8ed32e96ee1c8813eee.png"> <!--?lit$135593057$-->
+  9th
+ </div> 
+        </div>
+      </a>
+      <!--?lit$135593057$--><div class="message-container"><!--?lit$135593057$--></div>
+    </template></ql-user-points>
+
+<ql-icon-button id="my_account" label="My account" tip="My account"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="My account" aria-busy="false" aria-haspopup="true" aria-controls="my_account_menu">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+<ql-avatar><template shadowrootmode="open"><!---->
+      <ql-icon class="avatar" product="avatar_anonymous"><template shadowrootmode="open"><!---->
+      <img aria-hidden="true" src="https://www.gstatic.com/images/branding/product/2x/avatar_anonymous_512dp.png" width="40" height="40">
+      <!--?lit$135593057$--><!--?-->
+    </template>
+      </ql-icon>
+    </template></ql-avatar>
+</ql-icon-button>
+<ql-menu for="my_account" id="my_account_menu" tabindex="-1" aria-hidden="true" style="left: -1000px; top: -1000px; opacity: 0; visibility: hidden;" role="menu" aria-labelledby="my_account"><template shadowrootmode="open"><!---->
+      <ql-card elevation="3"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+        <slot></slot>
+      </ql-card>
+    </template>
+<div class="my-account-menu">
+<ql-avatar class="l-mtl l-mbl" size="120"><template shadowrootmode="open"><!---->
+      <ql-icon class="avatar" product="avatar_anonymous"><template shadowrootmode="open"><!---->
+      <img aria-hidden="true" src="https://www.gstatic.com/images/branding/product/2x/avatar_anonymous_512dp.png" width="120" height="120">
+      <!--?lit$135593057$--><!--?-->
+    </template>
+      </ql-icon>
+    </template></ql-avatar>
+<div class="my-account-menu__user-info l-mbl">
+<h4 class="ql-title-medium">MOUSSA OUSTOUH</h4>
+<p class="ql-body-medium text--light">moussa.oustouh@capgemini.com</p>
+<p class="ql-body-medium text--light">
+</p>
+<a class="text--green ql-title-small" href="https://googlecoursera.qwiklabs.com/my_account/payments"><ql-chip positive=""><template shadowrootmode="open"><!---->
+      <div class=" chip positive ">
+        <!--?lit$135593057$-->
+        <slot></slot>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+0 Credits
+</ql-chip>
+</a></div>
+<div class="buttons l-mbl">
+<a class="button button--hairline" id="settings" href="https://googlecoursera.qwiklabs.com/my_account/profile">Settings</a>
+</div>
+<hr>
+<ql-button data-analytics-action="clicked_sign_out" href="/users/sign_out" method="delete"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button default " aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+Sign Out
+</ql-button>
+<div class="privacy l-mtl">
+<a target="_blank" class="ql-label-medium text--light" href="https://googlecoursera.qwiklabs.com/privacy_policy">Privacy</a>
+<span class="ql-label-medium text--light l-mls l-mrs">·</span>
+<a class="ql-label-medium text--light" href="https://googlecoursera.qwiklabs.com/terms_of_service">Terms</a>
+</div>
+</div>
+</ql-menu>
+
+</div>
+</ql-toolbar>
+
+</div>
+</div>
+
+<nav class="nav-panel js-nav-panel">
+<div class="nav-panel__logo">
+<div class="custom-logo">Qwiklabs</div>
+</div>
+<nav class="ql-sidenav">
+<ql-sidenav-item href="/" icon="home" label="Home"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/" class=" sidenav-item " aria-label="Home">
+        <!--?lit$135593057$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->home</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$135593057$-->Home</span>
+      <!--?lit$135593057$-->
+    
+      </a>
+     <!--?lit$135593057$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/catalog" icon="school" label="Catalog"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/catalog" class=" sidenav-item " aria-label="Catalog">
+        <!--?lit$135593057$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->school</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$135593057$-->Catalog</span>
+      <!--?lit$135593057$-->
+    
+      </a>
+     <!--?lit$135593057$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/profile" icon="event_note" label="Profile"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/profile" class=" sidenav-item " aria-label="Profile">
+        <!--?lit$135593057$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->event_note</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$135593057$-->Profile</span>
+      <!--?lit$135593057$-->
+    
+      </a>
+     <!--?lit$135593057$--> </template></ql-sidenav-item>
+
+<ql-sidenav-item href="/subscriptions" icon="subscriptions" label="Subscriptions"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <a href="https://googlecoursera.qwiklabs.com/subscriptions" class=" sidenav-item " aria-label="Subscriptions">
+        <!--?lit$135593057$-->
+      <ql-icon class="arrow"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <ql-icon class="icon"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->subscriptions</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+      <span class="label"><!--?lit$135593057$-->Subscriptions</span>
+      <!--?lit$135593057$-->
+    
+      </a>
+     <!--?lit$135593057$--> </template></ql-sidenav-item>
+
+</nav>
+
+</nav>
+<div class="nav-panel__overlay js-nav-toggle"></div>
+
+<main class="js-main" id="jump-content">
+<div class="l-main-wrapper" id="main-wrapper">
+
+
+
+
+<ql-drawer-container class="js-lab-state" data-analytics-payload="{&quot;label&quot;:&quot;JAVAMS05 Messaging with Pub/Sub&quot;,&quot;lab_name&quot;:&quot;JAVAMS05 Messaging with Pub/Sub&quot;,&quot;classroom_name&quot;:null,&quot;deployment&quot;:&quot;googlecoursera-run&quot;}" data-credits="0.0" data-focus-id="35799521" data-lab-duration="7200" data-parent="lti_session" data-recaptcha-enabled="" id="lab-container"><template shadowrootmode="open"><!---->
+      <slot name="drawer"></slot>
+      <div class="content" style="margin-left: 0px; margin-right: 0px;">
+        <slot name="drawer-content"></slot>
+        <slot></slot>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+<ql-drawer id="terminal-drawer" slot="drawer" tabindex="-1" aria-hidden="true" role="region" mode="side" style="visibility: hidden;"><template shadowrootmode="open"><!---->
+      <!--?lit$135593057$-->
+      <slot></slot>
+    </template>
+<iframe allow="clipboard-read" class="terminal" id="embedded-resource" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource.html"></iframe>
+</ql-drawer>
+<ql-drawer-content class="js-lab-wrapper" id="lab-content" slot="drawer-content"><template shadowrootmode="open"><!----><slot></slot></template>
+<ql-drawer-container id="lab-content-container"><template shadowrootmode="open"><!---->
+      <slot name="drawer"></slot>
+      <div class="content" style="margin-left: 320px; margin-right: 0px;">
+        <slot name="drawer-content"></slot>
+        <slot></slot>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+<ql-drawer id="control-panel-drawer" open="" slot="drawer" width="320" aria-hidden="false" role="region" mode="side" style="width: 320px; visibility: visible;"><template shadowrootmode="open"><!---->
+      <!--?lit$135593057$-->
+      <slot></slot>
+    </template>
+
+<ql-lab-control-panel class="ql-lab-control-panel__max-height control-panel js-lab-control-panel onramp" connectionfiles="[]" labcontrolbutton="{&quot;disabled&quot;:false,&quot;pending&quot;:false,&quot;running&quot;:false}" labdetails="[]" labtimer="{&quot;ticking&quot;:false,&quot;secondsRemaining&quot;:7200}" studentresources="[]"><template shadowrootmode="open"><!---->
+      <div class="control-panel-container control-panel-container--no-shrink">
+        <!--?lit$135593057$-->
+        <div class="control-panel-section control-panel-section--2up">
+          <!--?lit$135593057$-->
+      <ql-lab-control-button id="lab-control-button"><template shadowrootmode="open"><!---->
+      <ql-button><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button positive " aria-label="Start Lab, you have 2 hours to complete this lab." aria-expanded="false" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        <!--?lit$135593057$-->Start Lab
+      </ql-button>
+    </template>
+      </ql-lab-control-button>
+     <!--?lit$135593057$-->
+      <ql-lab-timer id="lab-timer"><template shadowrootmode="open"><!---->
+        <ql-timer><template shadowrootmode="open"><!---->
+      <span aria-atomic="true" role="timer" class=" timer hhmmss " datetime="PT2H">
+        <time><!--?lit$135593057$-->02:00:00</time>
+      </span>
+    </template>
+        </ql-timer>
+      </template>
+      </ql-lab-timer>
+    
+        </div>
+      
+        <slot name="recaptcha"></slot>
+      </div>
+      <div class="control-panel-container">
+        <!--?lit$135593057$-->
+        <!--?lit$135593057$-->
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/api.js.download"></script>
+        <script>
+          // Define function so that we can call it again later if we need to reset it
+          // This executes reCAPTCHA and then calls our callback.
+          function executeRecaptchaForStartLab() {
+            grecaptcha.ready(function() {
+              grecaptcha.execute('6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr', {action: 'start_lab'}).then(function(token) {
+                setInputWithRecaptchaResponseTokenForStartLab('g-recaptcha-response-data-start-lab', token)
+              });
+            });
+          };
+          // Invoke immediately
+          executeRecaptchaForStartLab()
+
+          // Async variant so you can await this function from another async function (no need for
+          // an explicit callback function then!)
+          // Returns a Promise that resolves with the response token.
+          async function executeRecaptchaForStartLabAsync() {
+            return new Promise((resolve, reject) => {
+             grecaptcha.ready(async function() {
+                resolve(await grecaptcha.execute('6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr', {action: 'start_lab'}))
+              });
+            })
+          };
+
+                  var setInputWithRecaptchaResponseTokenForStartLab = function(id, token) {
+          var element = document.getElementById(id);
+          if (element !== null) element.value = token;
+        }
+
+        </script>
+<input type="hidden" name="g-recaptcha-response-data[start_lab]" id="g-recaptcha-response-data-start-lab" data-sitekey="6LeVI8IUAAAAAJNdox5eTkYrw9SbvhZ1TFyv3iHr" class="g-recaptcha g-recaptcha-response " value="03AFcWeA7CU2i5MZ9SlxPS_RwBJXC4LBOf9KwGvQPVlY5O0rK60u2gLDFK8Ta1SHq8wngV_--ZDk7XAHkJ5Atu-pRsrrV4ap1-sBR7M4Dh2BrVetdQ7iQTFNLoPc9mQOMjIxwTHwaAAWh8lpCzzZjriKZ5p3XH68SOr-VnQug9CHbhAH7FvVbK2N-sQekXJZEtu7OCQX_F6sO1qwFhrFrJ8Pi0kZkwrzqpg3vU4ccxBS2HJbcbL2y_2ofgZTRpH3834V6lBhy82gur05ROkDDXkLeJUWV545WbS3RncS-CcKApVwAiqgB7H-hV7jCFqRY1275ngxNxnV7sWtpA1xm9qE3vPUVDJVmW2GZ_1CVmt5o9zDZ0pVthBQCCmMTFDUHUkLMb6idv3zBVTF0NtgoUf0c-wWwwOHbxPk8iZOGMOunKNX3suxjiBWp1YjDfVxmzQw6AQVkBcuoLlb_Y_S1LZQxr4zpNW_QMjeP6bU3Pzd_mrEZO2pHDBH8zkKaVQlfSN20MplSfFRqTxHZ-cukR385Pae3vEJk6B0gm4j1TWjB5TGfrowYZqwRJ6oEnYwA2urxcCvWTXCy9mKQ30eD7DTQ8UQTg_FFN6diz2xssFOwGco9k3NSuWv4RXQNgkfaxQvGeC-fCm6qUsEpUbZUuCQPZ1PWmQYyfk4be1C03-zq5SQ2lDEo-Rh1bO9qlQrF1FAkMpEbt5NTOQDeY3DcuQNwrqvCeFUd_WWXad_PtXCeaoVCTTWKA4UuHGO2yM7fGurwkfZjIeW1IZWC5Ka2ycQgwMmJdLykoGqPibRmUTyPCfRUNtAOuktt_fcWM_65dxLHUFDk_u4F4YiitRJxEiBIHFSTsNEiSZKDHxNdYj0m0-QvtS2bqkcRWqZDjOlSsZSBqUnIfeI9lfy6RjlrR6UTh28xmQBfbarE4uxdJq8TepQYndse9JA8BCTVtKe2GRBmGikbg99wSTQioV1SEvuVHXE0Sux1aTc28vHlJvliGGye8L8Ye6MH_MiRurgmwt1ncgX_PFeu0BbmM25h8qzH7jpYj47XnCOsP-sbkV_DHk4Fmb6bkDvIpkPn_23V2hewNmeW6GLa9c24WxgkHUQ2vnOxm-pj_I52fNgrqMb93BqDiTy1pjwcvsqE3GD6hlLlBukjiQ4BJV6shWyypdYyoq1QhHJIf3cVvdY_AtVf3RzSAoISBZZRrKgHPLKlUWnkgkd7VcHNl3EzxQdKXrpj44q5FBVdCe6hC27_PN7E1f3hPBJZ3ct8rDXPTcRPcUbmqbkU6OAd4tHEvzJRY-8dzx2x8rE4lCplUL4fgg1hp4fJ6O_1oCilDhXiaAkxhjGsRXpAkg7hn0AHvo43Bc2YK4-06jp6OjVFgda1FYDZGgOC1dhZ0STeBNXbcXinJLcqTIWPOv9I1AOj7YCm9A6cfYtI1Q0Kv1EiW2Hc8AdtLa6UJE9nCKbBjid3AFXYFxW2rKC4L8EKmV1AEuE06tfROl-zHOnj7j1OKJfcYDJTurmgtqmg36HRdtKCsiNgwWNKsjFyxre9oBmonsSSLpH82eoocnwafXwk75coEb4Rf3mbOv5U4u2ujkIYM3WCZCDytCgdaX6CuhKr_9nOGVlAAssWB3ovRhYhKt6gb1nzoeytjlNDJ10xo0KT54ByLBREiI73mIGULOhgXn8DtmrfFGm3gHr0-xMGfHgRoPbq6hFWZKv7X4I8" style=""><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-25lt7tf78119" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></input>
+
+<div aria-live="polite" class="hidden" id="recaptcha-v2-start-lab" slot="recaptcha">
+<script src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/api(1).js.download" async="" defer=""></script>
+<div data-sitekey="6LeOI8IUAAAAAPkHlMAE9NReCD_1WD81iYlBlCnV" data-callback="recaptchaComplete" data-expired-callback="expireV2Token" class="g-recaptcha "><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-vqztbngtth5h" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/anchor(1).html"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(1).html"></iframe></div>
+          <noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.recaptcha.net/recaptcha/api/fallback?k=6LeOI8IUAAAAAPkHlMAE9NReCD_1WD81iYlBlCnV"
+                    name="ReCAPTCHA"
+                    style="width: 302px; height: 422px; border-style: none; border: 0; overflow: hidden;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+
+</div>
+</ql-lab-control-panel></ql-drawer>
+<ql-drawer-content id="lab-instructions" slot="drawer-content" style="flex-wrap: nowrap;"><template shadowrootmode="open"><!----><slot></slot></template>
+<div class="lab-content-container">
+<div class="alert alert--fake js-alert">
+<p class="alert__message js-alert-message" role="alert"></p>
+<ql-icon-button class="alert__close js-alert-close" icon="clear"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="clear" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$-->clear
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-icon-button>
+<iframe class="l-ie-iframe-fix" tabindex="-1" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(2).html"></iframe>
+</div>
+<div class="lab-content__renderable-instructions js-lab-content">
+<div class="lab-preamble">
+<h1 class="ql-display-large lab-preamble__title">
+JAVAMS05 Messaging with Pub/Sub
+</h1>
+<div class="lab-preamble__details ql-title-medium">
+<span>
+<ql-icon icon="experiment"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->experiment</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+Lab
+</span>
+<span>
+<ql-icon icon="schedule"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->schedule</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+2 hours
+</span>
+<span>
+<ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template>universal_currency_alt</ql-icon>
+No cost
+</span>
+<span>
+<ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template>show_chart</ql-icon>
+Introductory
+</span>
+</div>
+<div class="lab__rating">
+<a aria-label="Lab Reviews" href="https://googlecoursera.qwiklabs.com/focuses/35799521/reviews?parent=lti_session"><div class="rateit" data-rateit-readonly="true" data-rateit-value="4.4207"><div class="rateit-reset" style="display: none;"></div><div class="rateit-range" style="width: 80px; height: 16px;"><div class="rateit-selected" style="height: 16px; width: 70.7312px;"></div><div class="rateit-hover" style="height:16px"></div></div></div>
+
+</a><ql-button aria-label="Rate Lab" id="rate-lab-btn" label="Rate Lab" text=""><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="Rate Lab" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->Rate Lab </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-button>
+</div>
+</div>
+<div class="lab-outline-mobile" id="outline_mobile">
+<div class="header">
+<div class="ql-label-small">Lab instructions and tasks</div>
+<ql-toggle-button expandable="" for="outline_mobile" officon="expand_less" onicon="expand_more"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-busy="false" aria-pressed="false" aria-expanded="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$-->expand_less
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-toggle-button>
+</div>
+<ul class="lab-content__outline">
+<li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step1">Overview</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step2">Setup and requirements</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step3">Task 1. Fetch the application source files</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step4">Task 2. Enable Pub/Sub API</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step5">Task 3. Create a Pub/Sub topic</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step6">Task 4. Add Spring Cloud GCP Pub/Sub starter</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step7">Task 5. Publish a message</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step8">Task 6. Test the application in the Cloud Shell</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step9">Task 7. Create a subscription</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step10">Task 8. Process messages in subscriptions</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step11">Task 9. Review</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step12">End your lab</a></li>
+</ul>
+</div>
+<div class="instruction-signed-in-card">
+<div class="lab-mobile-card card elevation-2">
+<img src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/send_link_image-5f833bd146929134c423c83e4bb520429ce72180.png">
+<div class="ql-title-large">This content is not yet optimized for mobile devices.</div>
+<div class="ql-body-large">For the best experience, please visit us on a desktop computer using a link sent by email.</div>
+<ql-button href="/focuses/35799521/resume_on_desktop_email?parent=lti_session" icon="link" label="Send link" method="post"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill ql-button default " aria-label="Send link" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$-->
+        <ql-icon class="mdc-button__icon" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$--></slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template>
+          <!--?lit$135593057$-->link
+        </ql-icon>
+       <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->Send link </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-button>
+</div>
+
+</div>
+
+<div class="markdown-lab-instructions js-markdown-instructions" id="markdown-lab-instructions">
+
+<h2 id="step1">Overview</h2>
+<p>In this series of labs, you take a demo microservices Java application built with the Spring framework and modify it to use an external database server. You adopt some of the best practices for tracing, configuration management, and integration with other services using integration patterns.</p>
+<p>In this lab, you enhance your application to implement a message handling service with Pub/Sub. Pub/Sub publishes a message to a topic that can then be subscribed and processed by other services.</p>
+<p>Pub/Sub is a fully managed, real-time messaging service that enables you to send and receive messages between independent applications. Pub/Sub brings the scalability, flexibility, and reliability of enterprise message-oriented middleware to the cloud. By providing many-to-many, asynchronous messaging that decouples senders and receivers, Pub/Sub enables secure and highly available communication between independently written applications. Pub/Sub delivers low-latency, durable messaging that helps developers quickly integrate systems hosted on the Google Cloud and externally.</p>
+<h3>Objectives</h3>
+<p>In this lab, you learn how to perform the following tasks:</p>
+<ul>
+<li>Enable Pub/Sub and create a Pub/Sub topic</li>
+<li>Use Spring to add Pub/Sub support to your application</li>
+<li>Modify an application to publish Pub/Sub messages</li>
+<li>Create a Pub/Sub subscription</li>
+<li>Modify an application to process messages from a Pub/Sub subscription</li>
+</ul>
+<h2 id="step2">Setup and requirements</h2>
+<h4>How to start your lab and sign in to the Console</h4>
+<ol>
+<li>
+<p>Click the <strong>Start Lab</strong> button. If you need to pay for the lab, a pop-up opens for you to select your payment method.
+On the left is a panel populated with the temporary credentials that you must use for this lab.</p>
+<p><img alt="Credentials panel" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/_tHp4GI5VSDyTtdqi3qDFtevuY014F88+Fow_adnRgE="></p>
+</li>
+<li>
+<p>Copy the username, and then click <strong>Open Google Console</strong>.
+The lab spins up resources, and then opens another tab that shows the <strong>Choose an account</strong> page.</p>
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template><strong>Note: </strong>Open the tabs in separate windows, side-by-side.</ql-infobox>
+</li>
+<li>
+<p>On the Choose an account page, click <strong>Use Another Account</strong>. The Sign in page opens.</p>
+<p><img alt="Choose an account dialog box with Use Another Account option highlighted " src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/eQ6xPnPn13GjiJP3RWlHWwiMjhooHxTNvzfg1AL2WPw="></p>
+</li>
+<li>
+<p>Paste the username that you copied from the Connection Details panel. Then copy and paste the password.</p>
+</li>
+</ol>
+<ql-warningbox><template shadowrootmode="open"><!---->
+      <aside>
+        <slot></slot>
+      </aside>
+    </template><strong>Note: </strong>You must use the credentials from the Connection Details panel. Do not use your Google Cloud Skills Boost credentials. If you have your own Google Cloud account, do not use it for this lab (avoids incurring charges).</ql-warningbox>
+<ol start="5">
+<li>Click through the subsequent pages:</li>
+</ol>
+<ul>
+<li>Accept the terms and conditions.</li>
+<li>Do not add recovery options or two-factor authentication (because this is a temporary account).</li>
+<li>Do not sign up for free trials.</li>
+</ul>
+<p>After a few moments, the Cloud console opens in this tab.</p>
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template><strong>Note: </strong>You can view the menu with a list of Google Cloud Products and Services by clicking the <b>Navigation menu</b> at the top-left.
+<img alt="Cloud Console Menu" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/9vT7xPlxoNP_PsK0J8j0ZPFB4HnnpaIJVCDByaBrSHg=">
+</ql-infobox>
+
+<p>After you complete the initial sign-in steps, the project dashboard appears.</p>
+<p><img alt="The project dashboard which includes tiles such as Project info, Resources, Compute Engine, Billing, and Error Reporting" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/cz8jCbV_ns8GgWqnMqYpdhNT_ZPgK6MLbF6tJhO5mtM="></p>
+<h2 id="step3">Task 1. Fetch the application source files</h2>
+<p>In this task, you clone the repository files that are used throughout this lab.</p>
+<ol>
+<li>
+<p>To begin the lab, click the <strong>Activate Cloud Shell</strong> button at the top of the Google Cloud Console and, if prompted, click <strong>Continue</strong>.</p>
+</li>
+<li>
+<p>To activate the code editor, click the <code>Open Editor</code> button on the toolbar of the Cloud Shell window.</p>
+</li>
+<li>
+<p>Click <strong>Open in a new Window</strong> to open the code editor in a separate tab.</p>
+</li>
+</ol>
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template><strong>Note:</strong> A Cloud Storage bucket that is named using the project ID for this lab is automatically created for you by the lab setup. The source code for your applications is copied into this bucket when the Cloud SQL server is ready. You might have to wait a few minutes for this action to complete.
+</ql-infobox>
+<ol start="4">
+<li>In Cloud Shell, enter the following command to create an environment variable that contains the project ID for this lab:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">export PROJECT_ID=$(gcloud config list --format 'value(core.project)')</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
+</ql-code-block>
+<ol start="5">
+<li>Verify that the demo application files were created:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud storage ls gs://$PROJECT_ID</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud storage ls gs://$PROJECT_ID
+</ql-code-block>
+<p>It may take a few minutes for provisioning to complete and the bucket to be created.</p>
+<ol start="6">
+<li>Copy the application folders to Cloud Shell:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud storage cp -r gs://$PROJECT_ID/* ~/</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud storage cp -r gs://$PROJECT_ID/* ~/
+</ql-code-block>
+<ol start="7">
+<li>Make the Maven wrapper scripts executable:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">chmod +x ~/guestbook-frontend/mvnw
+chmod +x ~/guestbook-service/mvnw</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+chmod +x ~/guestbook-frontend/mvnw
+chmod +x ~/guestbook-service/mvnw
+</ql-code-block>
+<p>Now you're ready to go!</p>
+<h2 id="step4">Task 2. Enable Pub/Sub API</h2>
+<ul>
+<li>In Cloud Shell, enable the Pub/Sub API:</li>
+</ul>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud services enable pubsub.googleapis.com</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud services enable pubsub.googleapis.com
+</ql-code-block>
+<h2 id="step5">Task 3. Create a Pub/Sub topic</h2>
+<p>In this task, you create a Pub/Sub topic to which you will send a message.</p>
+<ul>
+<li>Use <code>gcloud</code> to create a Pub/Sub topic:</li>
+</ul>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud pubsub topics create messages</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud pubsub topics create messages
+</ql-code-block>
+<h2 id="step6">Task 4. Add Spring Cloud GCP Pub/Sub starter</h2>
+<p>In this task, you update the guestbook frontend application's <code>pom.xml</code> file. You add Spring Cloud GCP starter for Pub/Sub in the dependency section.</p>
+<ol>
+<li>Open the Cloud Shell code editor.</li>
+</ol>
+<ql-infobox><template shadowrootmode="open"><!---->
+      <aside part="aside">
+        <slot></slot>
+      </aside>
+    </template><strong>Note:</strong> It's recommended to have files automatically save when you update them. Select <strong>File &gt; Auto Save</strong> in the code editor menu.
+</ql-infobox>
+<ol start="2">
+<li>In the code editor, open <code>~/guestbook-frontend/pom.xml</code>.</li>
+<li>Insert the following new dependency at the end of the <code>&lt;dependencies&gt;</code> section, just before the closing <code>&lt;/dependencies&gt;</code> tag:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-cloud-gcp-starter-pubsub&lt;/artifactId&gt;
+        &lt;/dependency&gt;</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-cloud-gcp-starter-pubsub&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+</ql-code-block>
+<h2 id="step7">Task 5. Publish a message</h2>
+<p>In this task, you use the <code>PubSubTemplate</code> bean in Spring Cloud GCP to publish a message to Pub/Sub. This bean is automatically configured and made available by the starter. You add <code>PubSubTemplate</code> to <code>FrontendController</code>.</p>
+<ol>
+<li>Open  <code>guestbook-frontend/src/main/java/com/example/frontend/FrontendController.java</code> in the Cloud Shell code editor.</li>
+<li>Add the following statement immediately after the existing <code>import</code> directives:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">import org.springframework.cloud.gcp.pubsub.core.*;</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+import org.springframework.cloud.gcp.pubsub.core.*;
+</ql-code-block>
+<ol start="3">
+<li>Insert the following statement between the lines <code>private</code> <code>GuestbookMessagesClient client;</code> and <code>@Value("${greeting:Hello}")</code>:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">    @Autowired
+    private PubSubTemplate pubSubTemplate;</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+    @Autowired
+    private PubSubTemplate pubSubTemplate;
+</ql-code-block>
+<ol start="4">
+<li>Add the following statement inside the if statement to process messages that aren't null or empty, just below the comment <code>// Post the message to the backend service</code>:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">pubSubTemplate.publish("messages", name + ": " + message);</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+pubSubTemplate.publish("messages", name + ": " + message);
+</ql-code-block>
+<p>The code for <code>FrontendController.java</code> should now look like this screenshot:</p>
+<p><img alt="The 45 lines of FrontendController.java code" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/_U6lWBG0xz12ZkicQedIy57cuUeTThixeNfbkk07WhY="></p>
+<h2 id="step8">Task 6. Test the application in the Cloud Shell</h2>
+<p>In this task, you run the application in the Cloud Shell to test the new Pub/Sub message handling code.</p>
+<ol>
+<li>In Cloud Shell, change to the <code>guestbook-service</code> directory:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">cd ~/guestbook-service</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+cd ~/guestbook-service
+</ql-code-block>
+<ol start="2">
+<li>Run the backend service application:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.profiles.active=cloud"</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.profiles.active=cloud"
+</ql-code-block>
+<p>The backend service application launches on port 8081.This takes a minute or two to complete. You should wait until you see that the GuestbookApplication is running.</p>
+<ql-code-block output="" language="apache"><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="wrap hljs apache"><span class="hljs-attribute">Started</span> GuestbookApplication in <span class="hljs-number">20</span>.<span class="hljs-number">399</span> seconds (JVM running...)</pre>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+Started GuestbookApplication in 20.399 seconds (JVM running...)
+</ql-code-block>
+<ol start="3">
+<li>Open a new Cloud Shell session tab to run the frontend application by clicking the plus (+) icon to the right of the title tab for the initial Cloud Shell session.</li>
+<li>Change to the <code>guestbook-frontend</code> directory:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">cd ~/guestbook-frontend</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+cd ~/guestbook-frontend
+</ql-code-block>
+<ol start="5">
+<li>Start the frontend application with the <code>cloud</code> profile:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">./mvnw spring-boot:run -Dspring.profiles.active=cloud</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+./mvnw spring-boot:run -Dspring.profiles.active=cloud
+</ql-code-block>
+<ol start="6">
+<li>Open the Cloud Shell web preview and post a message.</li>
+</ol>
+<p>The frontend application tries to publish a message to the Pub/Sub topic. You will check if the publish was successful in the next task.</p>
+<h2 id="step9">Task 7. Create a subscription</h2>
+<p>Before subscribing to a topic, you must create a subscription. Pub/Sub supports pull subscription and push subscription. With a pull subscription, the client can pull messages from the topic. With a push subscription, Pub/Sub can publish messages to a target webhook endpoint.</p>
+<p>A topic can have multiple subscriptions. A subscription can have many subscribers. If you want to distribute different messages to different subscribers, then each subscriber needs to subscribe to its own subscription. If you want to publish the same messages to all the subscribers, then all the subscribers must subscribe to the same subscription.</p>
+<p>Pub/Sub messages are delivered "at least once." Thus, you must deal with idempotence and you must deduplicate messages if you cannot process the same message more than once.</p>
+<p>In this task, you create a Pub/Sub subscription. You then test it by pulling messages from the subscription, before and after posting a message from the frontend application.</p>
+<ol>
+<li>Open a new Cloud Shell tab.</li>
+<li>Create a Pub/Sub subscription:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud pubsub subscriptions create messages-subscription-1 \
+  --topic=messages</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud pubsub subscriptions create messages-subscription-1 \
+  --topic=messages
+</ql-code-block>
+<ol start="3">
+<li>Pull messages from the subscription:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud pubsub subscriptions pull messages-subscription-1</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud pubsub subscriptions pull messages-subscription-1
+</ql-code-block>
+<p>The <code>pull messages</code> command should report 0 items.</p>
+<p>The message you posted earlier does not appear, because the message was published before the subscription was created.</p>
+<ol start="4">
+<li>Return to the frontend application, post another message, and then pull the message again:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud pubsub subscriptions pull messages-subscription-1</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud pubsub subscriptions pull messages-subscription-1
+</ql-code-block>
+<p>The message appears. The message remains in the subscription until it's acknowledged.</p>
+<ol start="5">
+<li>Pull the message again and remove it from the subscription by using the auto-acknowledgement switch at the command line:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack
+</ql-code-block>
+<h2 id="step10">Task 8. Process messages in subscriptions</h2>
+<p>In this task, you use the Spring <code>PubSubTemplate</code> to listen to subscriptions.</p>
+<ol>
+<li>In Cloud Shell, generate a new project from Spring Initializr:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">cd ~
+curl https://start.spring.io/starter.tgz \
+  -d type=maven-project \
+  -d dependencies=web,cloud-gcp-pubsub \
+  -d bootVersion=3.2.2 \
+  -d javaVersion=11 \
+  -d baseDir=message-processor | tar -xzvf -</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+cd ~
+curl https://start.spring.io/starter.tgz \
+  -d type=maven-project \
+  -d dependencies=web,cloud-gcp-pubsub \
+  -d bootVersion=3.2.2 \
+  -d javaVersion=11 \
+  -d baseDir=message-processor | tar -xzvf -
+</ql-code-block>
+<p>This command generates a new Spring Boot project with the Pub/Sub starter preconfigured. The command also automatically downloads and unpacks the project into the <code>message-processor</code> directory structure.</p>
+<ol start="2">
+<li>Open <code>~/message-processor/pom.xml</code> to verify that the starter dependencies were automatically added.</li>
+</ol>
+<ql-code-block output="" language="dust"><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="wrap hljs dust"><span class="xml">    <span class="hljs-tag">&lt;<span class="hljs-name">dependencies</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.boot<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.google.cloud<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-cloud-gcp-starter-pubsub<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">dependencies</span>&gt;</span></span></pre>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;com.google.cloud&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-cloud-gcp-starter-pubsub&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+</ql-code-block>
+<ol start="3">
+<li>To write the code to listen for new messages delivered to the topic, open <code>~/message-processor/src/main/java/com/example/demo/DemoApplication.java</code> in the Cloud Shell code editor.</li>
+<li>Add the following <code>import</code> directives below the existing <code>import</code> directives:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">import org.springframework.context.annotation.Bean;
+import org.springframework.boot.ApplicationRunner;
+import com.google.cloud.spring.pubsub.core.*;</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+import org.springframework.context.annotation.Bean;
+import org.springframework.boot.ApplicationRunner;
+import com.google.cloud.spring.pubsub.core.*;
+</ql-code-block>
+<ol start="5">
+<li>Add the following code block to the class definition for <code>DemoApplication</code>, just above the existing definition for the main method:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">    @Bean
+    public ApplicationRunner cli(PubSubTemplate pubSubTemplate) {
+        return (args) -&gt; {
+            pubSubTemplate.subscribe("messages-subscription-1",
+                (msg) -&gt; {
+                    System.out.println(msg.getPubsubMessage()
+                        .getData().toStringUtf8());
+                    msg.ack();
+                });
+        };
+    }</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+    @Bean
+    public ApplicationRunner cli(PubSubTemplate pubSubTemplate) {
+        return (args) -&gt; {
+            pubSubTemplate.subscribe("messages-subscription-1",
+                (msg) -&gt; {
+                    System.out.println(msg.getPubsubMessage()
+                        .getData().toStringUtf8());
+                    msg.ack();
+                });
+        };
+    }
+</ql-code-block>
+<p>We added the Web starter simply because it's much easier to put Spring Boot application into daemon mode, so that it doesn't exit immediately.  There are other ways to create a Daemon, for example, using a CountDownLatch, or create a new Thread and set the daemon property to true.  But since we are using the Web starter, make sure that the server port is running on a different port to avoid port conflicts.</p>
+<ol start="6">
+<li>Add this line to change the port on <code>message-processor/src/main/resources/application.properties</code>:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">server.port=${PORT:9090}</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+server.port=${PORT:9090}
+</ql-code-block>
+<ol start="7">
+<li>Return to the Cloud Shell tab for the message processor to listen to the topic:</li>
+</ol>
+<ql-code-block language="plaintext"><template shadowrootmode="open"><!---->
+      <div class=" container light-theme ">
+        <pre class="plaintext wrap hljs">cd ~/message-processor
+./mvnw -q spring-boot:run</pre>
+      </div>
+      <!--?lit$135593057$-->
+      <div class="copy-container"> <!--?lit$135593057$-->
+      <span class="copied-message" aria-live="polite" role="alert">
+        <!--?lit$135593057$-->Copied!
+      </span>
+     <!--?lit$135593057$-->
+      <ql-icon-button class="copy-button" label="Copy" title="Copy"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-icon-button mdc-icon-button--display-flex gm-icon-button google-material-icons " aria-label="Copy" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-icon-button__ripple"></span>
+      <!--?lit$135593057$--><slot></slot>
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        content_copy
+      </ql-icon-button>
+     </div>
+    
+    </template>
+cd ~/message-processor
+./mvnw -q spring-boot:run
+</ql-code-block>
+<ol start="8">
+<li>Open the browser with the frontend application, and post a few messages.</li>
+<li>Verify that the Pub/Sub messages are received in the message processor.</li>
+</ol>
+<p>The new messages should be displayed in the Cloud Shell tab where the message processor is running, as in the following example:</p>
+<ql-code-block output="" language="stylus"><template shadowrootmode="open"><!---->
+      <div class=" container dark-theme ">
+        <pre class="wrap hljs stylus">... <span class="hljs-selector-attr">[main]</span> com<span class="hljs-selector-class">.example</span><span class="hljs-selector-class">.demo</span><span class="hljs-selector-class">.DemoApplication</span>         : Started DemoApplication...
+Ray: Hey
+Ray: Hello!</pre>
+      </div>
+      <!--?lit$135593057$-->
+    </template>
+... [main] com.example.demo.DemoApplication         : Started DemoApplication...
+Ray: Hey
+Ray: Hello!
+</ql-code-block>
+<h2 id="step11">Task 9. Review</h2>
+<p>In this lab, you enabled Pub/Sub and created a Pub/Sub topic. You used Spring to add Pub/Sub support to your application. You also modified an application to publish Pub/Sub messages, and created a Pub/Sub subscription. Finally, you modified an application to process messages from a Pub/Sub subscription.</p>
+<h2 id="step12">End your lab</h2>
+<p>When you have completed your lab, click <strong>End Lab</strong>. Google Cloud Skills Boost removes the resources you’ve used and cleans the account for you.</p>
+<p>You will be given an opportunity to rate the lab experience. Select the applicable number of stars, type a comment, and then click <strong>Submit</strong>.</p>
+<p>The number of stars indicates the following:</p>
+<ul>
+<li>1 star = Very dissatisfied</li>
+<li>2 stars = Dissatisfied</li>
+<li>3 stars = Neutral</li>
+<li>4 stars = Satisfied</li>
+<li>5 stars = Very satisfied</li>
+</ul>
+<p>You can close the dialog box if you don't want to provide feedback.</p>
+<p>For feedback, suggestions, or corrections, please use the <strong>Support</strong> tab.</p>
+
+<p>Copyright 2022 Google LLC All rights reserved. Google and the Google logo are trademarks of Google LLC. All other company and product names may be trademarks of the respective companies with which they are associated.</p>
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="lab-content__end-lab-button js-end-lab-button-container hidden">
+<ql-lab-control-button class="js-end-lab-button" running=""><template shadowrootmode="open"><!---->
+      <ql-button><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button mdc-button--unelevated gm-button-fill gm-text-label-button ql-button negative " aria-expanded="true" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$--><slot></slot> </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+        <!--?lit$135593057$-->End Lab
+      </ql-button>
+    </template></ql-lab-control-button>
+</div>
+<!-- / TODO: Move recommendations into the end lab modal -->
+</div>
+<div aria-label="Lab Table of Contents" class="outline-container" id="js-outline-container" role="navigation">
+<ul class="lab-content__outline js-lab-content-outline">
+<div class="ql-label-small">Lab instructions and tasks</div>
+<li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step1" class="">Overview</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step2">Setup and requirements</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step3">Task 1. Fetch the application source files</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step4">Task 2. Enable Pub/Sub API</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step5">Task 3. Create a Pub/Sub topic</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step6">Task 4. Add Spring Cloud GCP Pub/Sub starter</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step7">Task 5. Publish a message</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step8">Task 6. Test the application in the Cloud Shell</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step9">Task 7. Create a subscription</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step10">Task 8. Process messages in subscriptions</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step11">Task 9. Review</a></li><li><a href="https://googlecoursera.qwiklabs.com/focuses/35799521?parent=lti_session#step12">End your lab</a></li>
+</ul>
+</div>
+</ql-drawer-content>
+</ql-drawer-container>
+</ql-drawer-content>
+</ql-drawer-container>
+<ql-snackbar id="alert-snackbar" aria-live="polite" role="alert"><template shadowrootmode="open"><!---->
+      <div class=" snackbar " style="left: 0px;">
+        <slot></slot>
+      </div>
+    </template></ql-snackbar>
+
+
+
+</div>
+</main>
+
+<span class="hidden" id="flash-sibling-before"></span>
+<ql-snackbar aria-live="polite" role="alert"><template shadowrootmode="open"><!---->
+      <div class=" snackbar " style="left: 0px;">
+        <slot></slot>
+      </div>
+    </template></ql-snackbar>
+
+<script data-glue-cookie-notification-bar-category="2B" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/cookienotificationbar.min.js.download"></script>
+
+
+
+<ql-dialog headline="Score Details" icon="task_alt" id="jupyter-feedback-modal" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$135593057$-->
+      <div part="header" class=" header centered ">
+        <!--?lit$135593057$--> <ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->task_alt</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+        <h1 id="title"><!--?lit$135593057$--><!--?lit$135593057$-->Score Details<!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class=" actions ">
+        <!--?lit$135593057$-->
+      <ql-button text="" class="dismissal-button" label="OK"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="OK" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->OK </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$135593057$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<iframe id="jupyter-feedback-frame" title="Jupyter Feedback" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(3).html"></iframe>
+</ql-dialog>
+
+<div class="modal fade" id="lab-details-modal">
+<div class="modal-container">
+<div class="modal-content mdl-shadow--24dp">
+<div class="modal-body">
+<p class="l-mbm">
+Java Microservices with Spring Boot
+Lab 05 Messaging with Pub/Sub
+</p>
+<p class="small-label l-mbs">
+<strong>
+Duration:
+</strong>
+0m setup
+·
+120m access
+·
+120m completion
+</p>
+<p class="small-label l-mbs">
+<strong>AWS Region:</strong>
+[] <strong></strong>
+</p>
+<p class="small-label l-mbs">
+<span><strong>Levels: </strong>fundamental</span>
+</p>
+<p class="small-label">
+<strong>
+Permalink:
+</strong>
+<a href="https://googlecoursera.qwiklabs.com/catalog_lab/1508">https://googlecoursera.qwiklabs.com/catalog_lab/1508</a>
+</p>
+</div>
+<div class="modal-actions">
+<a class="button button--text" data-dismiss="modal">
+Got It
+</a>
+</div>
+
+
+</div>
+</div>
+<iframe class="l-ie-iframe-fix" tabindex="-1" title="modal" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(4).html"></iframe>
+</div>
+<ql-dialog headline="How satisfied are you with this lab?&lt;span aria-hidden=&quot;true&quot;&gt;*&lt;/span&gt;" id="lab-review-dialog" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$135593057$-->
+      <div part="header" class=" header ">
+        <!--?lit$135593057$-->
+        <h1 id="title"><!--?lit$135593057$--><!--?lit$135593057$-->How satisfied are you with this lab?<span aria-hidden="true">*</span><!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$135593057$-->
+      <ql-button text="" class="dismissal-button" label="Cancel"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="Cancel" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->Cancel </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$135593057$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<form class="simple_form js-lab-review-form" id="edit_lab_review_38968984" action="https://googlecoursera.qwiklabs.com/lab_reviews/38968984" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓" autocomplete="off"><input type="hidden" name="_method" value="patch" autocomplete="off"><div aria-labelledby="lab-review-dialog" aria-required="true" aria-valuemax="5" aria-valuemin="0" aria-valuenow="5" class="rateit js-rateit" data-rateit-max="5" data-rateit-min="0" data-rateit-resetable="false" data-rateit-step="1" data-rateit-value="5" id="lab-review-rateit" role="slider" tabindex="0"><div class="rateit-reset" style="display: none;"></div><div class="rateit-range" style="width: 80px; height: 16px;"><div class="rateit-selected" style="height: 16px; width: 80px;"></div><div class="rateit-hover" style="height:16px"></div></div></div>
+<div class="l-mtm">
+
+<div class="control-group hidden lab_review_user_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" value="16476886" name="lab_review[user_id]" id="lab_review_user_id"></div></div>
+<div class="control-group hidden lab_review_classroom_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" name="lab_review[classroom_id]" id="lab_review_classroom_id"></div></div>
+<div class="control-group hidden lab_review_lab_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" value="1508" name="lab_review[lab_id]" id="lab_review_lab_id"></div></div>
+<div class="control-group hidden lab_review_focus_id"><div class="controls"><input class="hidden" autocomplete="off" type="hidden" name="lab_review[focus_id]" id="lab_review_focus_id"></div></div>
+<div class="control-group hidden lab_review_rating"><div class="controls"><input class="hidden js-rating-input" autocomplete="off" type="hidden" value="2" name="lab_review[rating]" id="lab_review_rating"></div></div>
+<div class="control-group text optional lab_review_comment"><label class="text optional control-label" for="lab_review_comment">Additional Comments</label><div class="controls"><textarea class="text optional" name="lab_review[comment]" id="lab_review_comment"></textarea></div></div>
+</div>
+</form><ql-button disabled="" id="submit" label="Submit" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="true">
+        <!--?lit$135593057$-->
+        <button type="button" disabled="" class=" mdc-button gm-button-text ql-button default " aria-label="Submit" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->Submit </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-button>
+</ql-dialog>
+
+<ql-dialog headline="Are you sure? You may not be able to restart the lab, and you&#39;ll need to start from the beginning if you do." icon="error_outline" id="js-lab-are-you-sure-dialog" tabindex="-1" aria-hidden="true"><template shadowrootmode="open"><!---->
+      <div class=" dialog-wrapper ">
+        <ql-card elevation="3" role="dialog" aria-labelledby="title" aria-modal="true"><template shadowrootmode="open"><!---->
+      <div part="body" class="card   ">
+        <slot></slot>
+      </div>
+    </template>
+          <!--?lit$135593057$-->
+      <div part="header" class=" header centered ">
+        <!--?lit$135593057$--> <ql-icon><template shadowrootmode="open"><!---->
+      <i class="google-material-icons" aria-hidden="true" style="font-size: inherit;">
+        <slot><!--?lit$135593057$-->error_outline</slot>
+      </i>
+      <!--?lit$135593057$--><!--?-->
+    </template></ql-icon>
+        <h1 id="title"><!--?lit$135593057$--><!--?lit$135593057$-->Are you sure? You may not be able to restart the lab, and you'll need to start from the beginning if you do.<!--?--></h1>
+      </div>
+      <div class="body" part="body">
+        <slot></slot>
+      </div>
+      <div part="actions" class="actions multiple">
+        <!--?lit$135593057$-->
+      <ql-button text="" class="dismissal-button" label="Cancel"><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="Cancel" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->Cancel </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template>
+      </ql-button>
+    
+        <slot name="action"></slot>
+      </div>
+    
+        </ql-card>
+        <!--?lit$135593057$--> <div class=" overlay "></div>
+      </div>
+    </template>
+<ql-button id="js-are-you-sure-button" label="End Lab" slot="action" text=""><template shadowrootmode="open"><!----> <!--?lit$135593057$-->
+      <div class="buttonContainer" aria-disabled="false">
+        <!--?lit$135593057$-->
+        <button type="button" class=" mdc-button gm-button-text ql-button default " aria-label="End Lab" aria-busy="false">
+          <!--?lit$135593057$-->
+      <span class="mdc-button__ripple"></span>
+      <!--?lit$135593057$--> <!--?lit$135593057$--> <span class="mdc-button__label"> <!--?lit$135593057$-->End Lab </span> 
+    
+        </button>
+      </div>
+     <!--?lit$135593057$--> </template></ql-button>
+</ql-dialog>
+
+
+<script>
+  document.addEventListener("turbo:load", function () {
+    ql.initMaterialInputs();
+    initChosen();
+    initSearch();
+    initTabs();
+    ql.list.init();
+    ql.favoriting.init();
+    ql.header.myAccount.init();
+    initTooltips();
+    ql.autocomplete.init();
+    ql.modals.init();
+    ql.toggleButtons.init();
+    ql.analytics.init();
+    Turbo.session.drive = false;
+    ql.chat.init();
+  ql.jumpContent.init();
+  ql.labControlPanel.addRecaptchaErrorHandler();
+  initLabContent();
+  ql.labOutline.links.init();
+  initLabReviewModal();
+  initLabReviewTranslations( {"star_amount_1":"1 of 5 stars","star_amount_2":"2 of 5 stars","star_amount_3":"3 of 5 stars","star_amount_4":"4 of 5 stars","star_amount_5":"5 of 5 stars"} )
+  ql.labAssessment.init();
+  ql.labData.init();
+  initLabTranslations( {"are_you_sure":"Are you sure? You may not be able to restart the lab, and you'll need to start from the beginning if you do.","in_progress":"*In Progress*","ending":"*Ending*","starting":"*Starting, please wait*","end_concurrent_labs":"Sorry, you can only run one lab at a time. To start this lab, please confirm that you want all of your existing labs to end.","copied":"Copied","no_resource":"Error retrieving resource.","no_support":"No Support","mac_press":"Press ⌘-C to copy","thanks_review":"Thanks for reviewing this lab.","windows_press":"Press Ctrl-C to copy","days":"days"} );
+  ql.labRun.init();
+  ql.navPanel.init();
+  ql.navigation.init();
+  
+  }, {once: true});
+</script>
+
+
+
+
+<iframe data-product="web_widget" title="No content" role="presentation" tabindex="-1" allow="microphone *" aria-hidden="true" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(5).html" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-c1oglq7jld4n" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/anchor(2).html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div><div style="visibility: hidden;"><div></div><div><style>
+        @-webkit-keyframes ww-b553d313-885d-4eb7-b62b-9ebe597e7286-launcherOnOpen {
+          0% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+          30% {
+            -webkit-transform: translateY(-5px) rotate(2deg);
+                    transform: translateY(-5px) rotate(2deg);
+          }
+
+          60% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+
+          90% {
+            -webkit-transform: translateY(-1px) rotate(0deg);
+                    transform: translateY(-1px) rotate(0deg);
+
+          }
+
+          100% {
+            -webkit-transform: translateY(-0px) rotate(0deg);
+                    transform: translateY(-0px) rotate(0deg);
+          }
+        }
+        @keyframes ww-b553d313-885d-4eb7-b62b-9ebe597e7286-launcherOnOpen {
+          0% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+          30% {
+            -webkit-transform: translateY(-5px) rotate(2deg);
+                    transform: translateY(-5px) rotate(2deg);
+          }
+
+          60% {
+            -webkit-transform: translateY(0px) rotate(0deg);
+                    transform: translateY(0px) rotate(0deg);
+          }
+
+
+          90% {
+            -webkit-transform: translateY(-1px) rotate(0deg);
+                    transform: translateY(-1px) rotate(0deg);
+
+          }
+
+          100% {
+            -webkit-transform: translateY(-0px) rotate(0deg);
+                    transform: translateY(-0px) rotate(0deg);
+          }
+        }
+
+        @keyframes ww-b553d313-885d-4eb7-b62b-9ebe597e7286-widgetOnLoad {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+
+        @-webkit-keyframes ww-b553d313-885d-4eb7-b62b-9ebe597e7286-widgetOnLoad {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      </style><iframe title="Button to launch messaging window" id="launcher" style="color-scheme: light; height: 64px; width: 64px; position: fixed; bottom: 14px; right: 14px; transform: none; transform-origin: right bottom; border: 0px; margin-top: 0px; opacity: 0; box-shadow: rgba(23, 73, 77, 0.15) 0px 20px 30px; animation: 0.2s ease-in 0.5s 1 normal forwards running ww-b553d313-885d-4eb7-b62b-9ebe597e7286-widgetOnLoad; z-index: 999999; border-radius: 50%;" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/saved_resource(6).html"></iframe></div></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-vqztbngtth5h" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./JAVAMS05 Messaging with Pub_Sub _ Qwiklabs_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
