@@ -6,6 +6,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.*;
 import java.util.*;
+// Add imports
+import org.springframework.cloud.gcp.pubsub.core.*;
+
 
 @Controller
 @SessionAttributes("name")
@@ -15,6 +18,11 @@ public class FrontendController {
 	
 	@Value("${greeting:Hello}")
 	private String greeting;
+
+    // @Autowired
+	// private PubSubTemplate pubSubTemplate;
+	@Autowired
+    private OutboundGateway outboundGateway;
 	
 	@GetMapping("/")
 	public String index(Model model) {
@@ -35,6 +43,10 @@ public class FrontendController {
 			payload.setName(name);
 			payload.setMessage(message);
 			client.add(payload);
+
+            // At the very end, publish the message
+            // pubSubTemplate.publish("messages", name + ": " + message);
+			outboundGateway.publishMessage(name + ": " + message);
 		}
 		return "redirect:/";
   }
